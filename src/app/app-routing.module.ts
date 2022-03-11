@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { PaginaComponent } from './components/pagina/pagina.component';
+import { SwitchDataComponent } from './components/switch-data/switch-data.component';
 import { SwitchComponent } from './components/switch/switch.component';
 
 const routes: Routes = [
@@ -23,6 +24,11 @@ const routes: Routes = [
   {
     path: 'switch',
     component: SwitchComponent
+  },
+
+  {
+    path: 'switch-data',
+    component: SwitchDataComponent
   }
 ];
 

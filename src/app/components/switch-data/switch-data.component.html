@@ -1,0 +1,7 @@
+<p>switch-data works!</p>
+<div class="container" *ngFor="let tel of telefonos">
+    <div class="form-check form-switch">
+        <input mdbCheckbox class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" (change)="switchChange(tel.tel)" />
+        <label class="form-check-label" for="flexSwitchCheckDefault">{{tel.tel}}</label>
+    </div>
+</div>

@@ -1,1 +1,5 @@
-<p>formulario works!</p>
+<form [formGroup]="form" (ngSubmit)="saveData()">
+    <input nz-input formControlName="name" id="name" />
+
+    <button nz-button nzType="primary">Guardar</button>
+</form>

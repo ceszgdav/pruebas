@@ -41,6 +41,8 @@ export class FormularioComponent implements OnInit {
       confirmButtonText: 'Si',
       
       denyButtonText: `no`,
+
+      reverseButtons: true,
       
     }).then((result) => {
       

@@ -26,13 +26,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PaginaComponent } from './components/pagina/pagina.component';
 import { FormularioComponent } from './components/formulario/formulario.component';
 import { SwitchComponent } from './components/switch/switch.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SwitchDataComponent } from './components/switch-data/switch-data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PaginaComponent,
     FormularioComponent,
-    SwitchComponent
+    SwitchComponent,
+    SwitchDataComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +55,9 @@ import { SwitchComponent } from './components/switch/switch.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule, 
+    ReactiveFormsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
